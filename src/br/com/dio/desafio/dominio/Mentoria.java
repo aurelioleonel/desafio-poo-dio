@@ -8,7 +8,7 @@ public class Mentoria extends Conteudo {  //Herança de conteudo
 
     @Override
     public double calcularXp() {
-        return XP_PADRAO + 20;
+        return XP_PADRAO + 20d;
     }
 
     public LocalDate getData() {
